@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoService - Автокөлік салоны және жөндеу орталығы</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Блок 1: Шапка сайта -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>AutoService</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Басты бет</a></li>
+                <li><a href="#services">Қызметтер</a></li>
+                <li><a href="#cars">Автокөліктер</a></li>
+                <li><a href="#about">Біз туралы</a></li>
+                <li><a href="#contact">Байланыс</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Блок 2: Главный баннер -->
+    <section id="home" class="hero-section">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="animate__animated animate__fadeInDown">Сіздің автокөліккеңізге кәсіби көмек</h2>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Жоғары сапалы қызмет және сенімді сервис</p>
+            <a href="#contact" class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Бізбен байланысыңыз</a>
+        </div>
+    </section>
+
+    <!-- Блок 3: Услуги -->
+    <section id="services" class="services-section">
+        <h2 data-aos="fade-up">Біздің қызметтер</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-car"></i>
+                <h3>Автокөлік сатып алу</h3>
+                <p>Жаңа және қолданылған автокөліктерді сатып алу</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-tools"></i>
+                <h3>Техникалық қызмет</h3>
+                <p>Кәсіби жөндеу және техникалық қызмет көрсету</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Кузов жөндеу</h3>
+                <p>Кузов жөндеу және бояу жұмыстары</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 4: Автомобили -->
+    <section id="cars" class="cars-section">
+        <h2 data-aos="fade-up">Қолжетімді автокөліктер</h2>
+        <div class="cars-grid">
+            <div class="car-card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Mercedes-Benz C-Class">
+                <h3>Mercedes-Benz C-Class</h3>
+                <p>2023 жыл | 2.0L | Автомат</p>
+                <a href="#" class="car-button">Толығырақ</a>
+            </div>
+            <div class="car-card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="BMW 5 Series">
+                <h3>BMW 5 Series</h3>
+                <p>2022 жыл | 2.5L | Автомат</p>
+                <a href="#" class="car-button">Толығырақ</a>
+            </div>
+            <div class="car-card" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Audi A6">
+                <h3>Audi A6</h3>
+                <p>2023 жыл | 2.0L | Автомат</p>
+                <a href="#" class="car-button">Толығырақ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 5: О нас -->
+    <section id="about" class="about-section">
+        <h2 data-aos="fade-up">Біз туралы</h2>
+        <div class="about-content" data-aos="fade-right">
+            <div class="about-text">
+                <p>Біз 10 жылдан астам уақыт бойы автокөлік саласында қызмет көрсетіп келеміз. Біздің мақсатымыз - клиенттерімізге ең жоғары сапалы қызмет көрсету.</p>
+                <ul class="features-list">
+                    <li data-aos="fade-left" data-aos-delay="100"><i class="fas fa-check"></i> Кәсіби команда</li>
+                    <li data-aos="fade-left" data-aos-delay="200"><i class="fas fa-check"></i> Заманауи жабдықтар</li>
+                    <li data-aos="fade-left" data-aos-delay="300"><i class="fas fa-check"></i> Кепілдік қызмет</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 6: Контакты -->
+    <section id="contact" class="contact-section">
+        <h2 data-aos="fade-up">Байланыс</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Бізбен байланысыңыз</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Мекенжай: Алматы қаласы, ... көшесі</p>
+                <p><i class="fas fa-phone"></i> Телефон: +7 (777) 777-77-77</p>
+                <p><i class="fas fa-envelope"></i> Email: info@autoservice.kz</p>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <input type="text" placeholder="Аты-жөніңіз" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea placeholder="Хабарламаңыз" required></textarea>
+                <button type="submit" class="submit-button">Жіберу</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 AutoService. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="script.js"></script>
+</body>
+</html>
